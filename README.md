@@ -1,27 +1,10 @@
-# HeroesApp
+# Nombre
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
+Heroes App
+## Caracteristicas
 
-## Development server
+Esta es una app interactiva, donde pues crear tus propios personajes y tambien editarlos.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Tecnologias
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+heroesApp, es una aplicacion totalmente modularizada, la cual carga sus modulos mediante una carga perezosa (LazyLoads), se usa un sistema de ruta para ir a cada componente ( routing ), tiene un sistema de logue por id buscandola en la base de datos cargada en un json-server, la cual permite obtener una id para loguearte. Tambien tiene un sistema de guards, trabajado con (canActive, canLoad) para permitir el acceso solo a las personas que tengan el id extraido de el json-server, si no lo tienes no te dejara navegar por la app. Se trabajo con Algular, typescript, html. El framework de trabajo usado fue Visual studio code y los componentes de la aplicacion fueron extraidos de primeng y boostrap.
